@@ -6,7 +6,7 @@
 #' @param scale_cis T/F
 #' resolution Integer
 #' norm String
-#' @returns 
+#' @returns Signal and Bin Index lists
 loadCooler = function(cooler, balancing = T, scale_bp = NULL, scale_cis = F, resolution = 10e3, norm = 'weight'){
   bins_name = "bins"
   pixels_name = "pixels"
