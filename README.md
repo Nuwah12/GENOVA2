@@ -33,8 +33,22 @@ mapping-pipelines.
 GENOVA directly reads data from:
 
   - HiC-pro
-  - cooler
+  - cooler (enhanced normalization options)
   - juicer
+
+## Changes
+In this fork, the `loadCooler` function in `loading_cooler.R` has a new parameter, `weight`, which is the string name of the normalization column within your `.cool` file. \
+A call to `loadCooler` would look like:
+```
+loadCooler("/path/to/file.cool",
+            balancing = TRUE,
+            scale_bp = NULL,
+            scale_cis = FALSE,
+            resolution = 5000,
+            weight = "VC_SQRT")
+```
+- ✅ Added support for custom normalization schemes in `loadCooler()`
+- 🔁 Refactored balance_cooler() to handle missing weights gracefully
 
 ## Installation
 
