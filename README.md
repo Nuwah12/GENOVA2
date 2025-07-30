@@ -14,6 +14,9 @@ version](https://img.shields.io/badge/R%3E%3D-3.4.4-succes.svg)](https://cran.r-
 ![GitHub tag (latest by
 date)](https://img.shields.io/github/v/tag/robinweide/GENOVA?color=succes)
 
+### 🍴Fork Note
+This repository is a fork of the original [GENOVA](https://github.com/robinweide/GENOVA) work. All credit for the idea and original content of the application goes to the original authors.
+
 *Explore the Hi-Cs\!*
 
 The increase in interest for Hi-C methods in the chromatin community has
