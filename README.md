@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# GENOVA <img src="vignettes/logo_GENOVA.png" align="right" alt="" width="200" />
+# GENOVA(2) <img src="vignettes/logo_GENOVA.png" align="right" alt="" width="200" />
 
 ![GitHub](https://img.shields.io/github/license/robinweide/GENOVA?color=succes?branch=dev)
 [![Build
