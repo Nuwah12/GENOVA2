@@ -1,22 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# GENOVA(2) <img src="vignettes/logo_GENOVA.png" align="right" alt="" width="200" />
-
-![GitHub](https://img.shields.io/github/license/robinweide/GENOVA?color=succes?branch=dev)
-[![Build
-Status](https://travis-ci.org/robinweide/GENOVA.svg?branch=dev)](https://travis-ci.org/robinweide/GENOVA)
-[![Project Status: Active – The project has reached a stable, usable
-state and is being actively
-developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![minimal R
-version](https://img.shields.io/badge/R%3E%3D-3.4.4-succes.svg)](https://cran.r-project.org/)
-![GitHub tag (latest by
-date)](https://img.shields.io/github/v/tag/robinweide/GENOVA?color=succes)
+# GENOVA(2)
 
 ### 🍴Fork Note
-This repository is a fork of the original [GENOVA](https://github.com/robinweide/GENOVA) work. All credit for the idea and original content of the application goes to the original authors.
-
+This repository is a fork of the original [GENOVA](https://github.com/robinweide/GENOVA) work. All credit for the idea and original content of the application goes to the original authors - please direct all questions concerning the package to them.
+****
 *Explore the Hi-Cs\!*
 
 The increase in interest for Hi-C methods in the chromatin community has
