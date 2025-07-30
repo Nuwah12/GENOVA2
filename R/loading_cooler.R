@@ -1,6 +1,13 @@
+#' Load in a cooler (.cool) file 
+#' 
+#' @param cooler The path to the .cool file
+#' @param balancing T/F
+#' @param scale_BP Double
+#' @param scale_cis T/F
+#' resolution Integer
+#' norm String
+#' @returns 
 loadCooler = function(cooler, balancing = T, scale_bp = NULL, scale_cis = F, resolution = 10e3, norm = 'weight'){
-  
-  
   bins_name = "bins"
   pixels_name = "pixels"
   ABS = NULL
@@ -23,6 +30,13 @@ loadCooler = function(cooler, balancing = T, scale_bp = NULL, scale_cis = F, res
                     name = paste0("/resolutions/",
                                   format(resolution, scientific = FALSE), 
                                   "/", bins_name)))
+    
+    ### Previously, only checked if Knight-Ruiz (KR) normalization is done, else asigns NA to all norm weight values
+    #if('KR' %in% colnames(ABS)) {
+    #  ABS$weight <- 1/ABS$KR
+    #}
+
+    ### Now, check if norm parameter exists in file, so user can specify any norm column in the file
     if (norm %in% colnames(ABS)) {
       print(paste0("Using ",norm))
       ABS$weight <- ABS[, ..norm]
