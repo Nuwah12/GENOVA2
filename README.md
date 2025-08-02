@@ -4,7 +4,8 @@
 # GENOVA(2)
 
 ### 🍴Fork Note
-This repository is a fork of the original [GENOVA](https://github.com/robinweide/GENOVA) work. All credit for the idea and original content of the application goes to the original authors - please direct all questions concerning the package to them.
+This repository is a fork of the original [GENOVA](https://github.com/robinweide/GENOVA) work. All credit for the idea and original content of the application goes to the original authors, please direct all questions concerning the package to them. \
+The portions of code that were added are noted below in the 'Changes' section, and are also clearly marked in the source.
 ****
 *Explore the Hi-Cs\!*
 
