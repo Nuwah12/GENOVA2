@@ -45,11 +45,10 @@ loadCooler("/path/to/file.cool",
 
 ## Installation
 
-You can install GENOVA from [GitHub](https://github.com/) with:
-
+You can install this version of GENOVA directly from this repository:
 ``` r
 # install.packages("remotes")
-remotes::install_github("robinweide/GENOVA")
+remotes::install_github("faryabiLab/GENOVA2")
 ```
 
 ## Note to long-time users
